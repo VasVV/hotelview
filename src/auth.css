@@ -1,0 +1,176 @@
+
+
+.auth__bg {
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+}
+
+.auth__form {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 32px;
+
+position: absolute;
+width: 409px;
+height: 230px;
+left: calc(50% - 409px/2 - 0.5px);
+top: calc(50% - 382px/2);
+
+background: #FFFFFF;
+/* Card */
+
+box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.04);
+border-radius: 16px;
+}
+
+
+
+.auth__form__inner__group__label {
+    position: static;
+left: 0%;
+right: 86.96%;
+top: 0%;
+bottom: 75%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+
+display: flex;
+align-items: center;
+
+color: #424242;
+
+}
+.auth__form__inner__group__field {
+    position: static;
+left: 0%;
+right: 0%;
+top: 34.21%;
+bottom: 0%;
+
+background: #FFFFFF;
+border: 1px solid #C9CACC;
+box-sizing: border-box;
+border-radius: 4px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 7px 0px;
+
+width: 100%
+}
+
+.auth__form__header {
+    display: flex;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 28px;
+color: #424242;
+}
+
+.auth__form__submit {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 7px;
+
+position: static;
+width: 345px;
+height: 50px;
+left: 32px;
+top: 300px;
+
+background: linear-gradient(104.34deg, #41522E -15.34%, #BE8022 145.95%);
+box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+cursor: pointer;
+}
+
+.auth__form__submit__text {
+    position: static;
+width: 46px;
+height: 20px;
+left: 149.5px;
+top: 15px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color:white !important;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+
+}
+
+.error-text {
+    color: red !important;
+}
+
+.error-border {
+    border: 1px solid red;
+}
+
+.auth__form__inner__group__error {
+
+    font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #EB1717;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 7px 0px;
+}
